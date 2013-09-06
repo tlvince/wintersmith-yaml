@@ -10,9 +10,6 @@
     "wintersmith-yaml"
   ],
   "main": "index.js",
-  "peerDependencies": {
-    "wintersmith": "2.x"
-  },
   "dependencies": {
     "coffee-script": "~1.6.3",
     "js-yaml": "~2.1.0"
