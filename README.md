@@ -1,29 +1,29 @@
-wintersmith-plugin
-==================
+# wintersmith-yaml
 
-[Wintersmith](https://github.com/jnordberg/wintersmith) plugin template
+Reads YAML files and adds them to the content tree.
 
 ## Installing
 
-Install globally or locally using npm
+Install globally or locally using `npm`:
 
 ```
-npm install [-g] wintersmith-plugin
+npm install [-g] wintersmith-yaml
 ```
 
-and add `wintersmith-plugin` to your config.json
+and add `wintersmith-yaml` to your config.json
 
 ```json
 {
   "plugins": [
-    "wintersmith-plugin"
+    "wintersmith-yaml"
   ]
 }
 ```
 
-## Running tests
+## Author
 
-```
-npm install
-npm test
-```
+© 2013 Tom Vincent <http://tlvince.com/contact>
+
+## License
+
+Released under the [MIT License](http://tlvince.mit-license.org).
