@@ -1,26 +1,20 @@
 {
-  "name": "wintersmith-plugin",
+  "name": "wintersmith-yaml",
   "version": "1.0.0",
-  "description": "A wintersmith plugin.",
-  "author": "Anonymous",
+  "description": "A wintersmith YAML plugin.",
+  "author": "Tom Vincent",
   "license": "MIT",
   "keywords": [
     "wintersmith",
-    "wintersmith-plugin"
+    "wintersmith-plugin",
+    "wintersmith-yaml"
   ],
-  "main": "lib/",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "coffee-script": ">1.5",
-    "vows": "0.7.x",
-    "wintersmith": "2.x"
-  },
+  "main": "index.js",
   "peerDependencies": {
     "wintersmith": "2.x"
   },
-  "scripts": {
-    "test": "./node_modules/.bin/vows test/* --spec",
-    "prepublish": "./bin/compile"
+  "dependencies": {
+    "coffee-script": "~1.6.3",
+    "js-yaml": "~2.1.0"
   }
 }
