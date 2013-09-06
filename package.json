@@ -1,7 +1,7 @@
 {
   "name": "wintersmith-yaml",
   "version": "1.0.0",
-  "description": "A wintersmith YAML plugin.",
+  "description": "A YAML plugin for Wintersmith",
   "author": "Tom Vincent",
   "license": "MIT",
   "keywords": [
@@ -16,5 +16,12 @@
   "dependencies": {
     "coffee-script": "~1.6.3",
     "js-yaml": "~2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tlvince/wintersmith-yaml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/wintersmith-yaml/issues"
   }
 }
